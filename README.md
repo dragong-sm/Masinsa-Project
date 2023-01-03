@@ -8,9 +8,6 @@
   [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white)](https://github.com/dragong-sm/Yeonsu-Analysis)
   [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=Jupyter&logoColor=white)](https://github.com/dragong-sm/Yeonsu-Analysis)
   [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white)](https://github.com/dragong-sm/Yeonsu-Analysis)
-  [![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white)](https://github.com/dragong-sm/Yeonsu-Analysis)
-  [![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white)](https://github.com/dragong-sm/Yeonsu-Analysis)
-  [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=Figma&logoColor=white)](https://github.com/dragong-sm/Yeonsu-Analysis)
 
 
 # Masinsa-Project
