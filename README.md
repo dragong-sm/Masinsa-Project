@@ -64,7 +64,6 @@
     - Python
 5. 프레임워크
     - React
-    - chart.js
     - SpringBoot
     - MyBatis
 6. Deploy
