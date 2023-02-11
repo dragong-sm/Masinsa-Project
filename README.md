@@ -40,6 +40,10 @@
 - 3rd party API(네이버 로그인 API) 활용한 기능 구현
 
 
+![Untitled](https://user-images.githubusercontent.com/117700630/218228561-8724f4ca-8598-4346-a167-cc044f8f032e.png)
+![Untitled (1)](https://user-images.githubusercontent.com/117700630/218228563-50bf514b-f84f-4dc7-ad36-a48295337239.png)
+
+
 **프로젝트 진행 과정**
 
 - 주제 선정 -> 데이터 수집 -> BMC(Business Model Canvas) 설계 -> 유저 스토리 설계 -> 화면 구성 설계 -> 기능 정의서 작성 및 기술 스택 결정 -> API 명세서 작성 -> DB 설계 -> 개발진행(프론트엔드/백엔드/머신러닝 파트로 분담) -> 프로젝트 배포 및 보고서 작성
