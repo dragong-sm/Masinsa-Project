@@ -40,8 +40,6 @@ function App() {
           &client_id=${naverLogin.clientId}&redirect_url=
           ${naverLogin.callbackUrl}&state=test`);
 
-          // alert(window.location);
-
           const access_token = window.location.href.split("=")[1].split("&")[0];
           console.log(access_token);
           setToken(access_token);

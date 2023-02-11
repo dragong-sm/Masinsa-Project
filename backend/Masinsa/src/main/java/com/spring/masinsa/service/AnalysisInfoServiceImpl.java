@@ -38,8 +38,6 @@ public class AnalysisInfoServiceImpl implements AnalysisInfoService {
     // if there is no analysisInfo, return false
     return false;
   }
-
-
-
+  
 
 }

@@ -8,7 +8,7 @@ export const getReviewCount = async ({
 }) => {
   const response = await axios.get(
     // `http://localhost:8080/review/count?maskId=${maskId}&reviewType=${reviewType}`
-    `http://34.64.239.97:8080/review/count?maskId=${maskId}&reviewType=${reviewType}`
+    `http://35.216.122.45:8080/review/count?maskId=${maskId}&reviewType=${reviewType}`
   );
 
   setReviewCount(response.data.result);

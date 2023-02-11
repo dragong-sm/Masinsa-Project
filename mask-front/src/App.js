@@ -48,30 +48,30 @@ function App() {
         />
         <Routes>
           {/* 메인페이지 :  "http://localhost:3000/" */}
-          {/* http://34.64.79.156:3000/ */}
+          {/* http://35.216.95.168:3000/ */}
           <Route path="/" element={<MainPage />} />
 
           {/* 상품리스트페이지 : "http://localhost:3000/MaskList/Masinsa/:blockingindex" */}
-          {/* http://34.64.79.156:3000/MaskList/Masinsa/:blockingindex */}
+          {/* http://35.216.95.168:3000/MaskList/Masinsa/:blockingindex */}
           <Route
             path="MaskList/Masinsa/:blockingindex"
             element={<ListPage />}
           />
 
           {/* 상품상세페이지 : "http://localhost:3000/aboutMask/:maskId/Masinsa" */}
-          {/* http://34.64.79.156:3000/aboutMask/:maskId/Masinsa */}
+          {/* http://35.216.95.168:3000/aboutMask/:maskId/Masinsa */}
           <Route path="/aboutMask/:maskId/Masinsa/*" element={<AboutPage />} />
 
           {/* 마이페이지 : "http://localhost:3000/:memberId/MyPage/Masinsa" */}
-          {/* http://34.64.79.156:3000/:memberId/MyPage/Masinsa */}
+          {/* http://35.216.95.168:3000/:memberId/MyPage/Masinsa */}
           <Route path="/:memberId/MyPage/Masinsa" element={<MyPage />} />
 
           {/* 마신사소개페이지 : "http://localhost:3000/Introduce/Masinsa" */}
-          {/* http://34.64.79.156:3000/Introduce/Masinsa */}
+          {/* http://35.216.95.168:3000/Introduce/Masinsa */}
           <Route path="/Introduce/Masinsa" element={<IntroducePage />} />
 
           {/* 로그인페이지 : "http://localhost:3000/Login/Masinsa" */}
-          {/* http://34.64.79.156:3000/Login/Masinsa */}
+          {/* http://35.216.95.168:3000/Login/Masinsa */}
           <Route
             path="/Login/Masinsa"
             element={

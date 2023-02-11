@@ -10,7 +10,7 @@ function NaverLogin({ setUser, setStatus, user }) {
   const naverLogin = new naver.LoginWithNaverId({
     clientId: "UNY76CePTThz2d9AIPl4", // CLIENT_ID
     // callbackUrl: "http://localhost:3000/Login/MASINSA", // CALLBACKURL
-    callbackUrl: "http://34.64.79.156:3000/Login/MASINSA",
+    callbackUrl: "http://35.216.95.168:3000/Login/MASINSA",
     isPopup: false /* 팝업을 통한 로그인 여부, true 면 팝업 */,
     loginButton: {
       /* 로그인 버튼의 타입을 지정 */ color: "green",
@@ -77,7 +77,7 @@ function NaverLogin({ setUser, setStatus, user }) {
   useEffect(() => {
     if (token != undefined) {
       axios
-        .post(`http://34.64.239.97:8080/member/new-member`, { token: token })
+        .post(`http://35.216.122.45:8080/member/new-member`, { token: token })
         .then((response) => setUser(response.data.result));
 
       // 홈페이지 메인으로 이동을 위한 navigate
