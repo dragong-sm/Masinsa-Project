@@ -8,5 +8,5 @@ export const getImage = async ({ maskId, setImages }) => {
   );
 
   // console.log(response.data);
-  setImages(response.data);
+  setImages(response.data.result);
 };

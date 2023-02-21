@@ -7,5 +7,5 @@ export const getMember = async ({ memberId, setMember }) => {
     `http://35.216.122.45:8080/member?memberId=${memberId}`
     // "http://localhost:8080/member?memberId=2"
   );
-  setMember(response.data);
+  setMember(response.data.result);
 };
